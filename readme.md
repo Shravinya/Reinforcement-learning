@@ -25,9 +25,3 @@ This project implements a custom reinforcement learning environment using [OpenA
 
 ---
 
-## 🛠️ Installation
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
