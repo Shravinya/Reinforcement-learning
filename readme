@@ -1,20 +1,33 @@
 # SFC Deployment Environment with Security Constraints
 
-## Overview
+## 🧠 Overview
 
-This project implements a reinforcement learning environment using OpenAI's Gym framework for the deployment of Virtual Network Functions (VNFs) in a physical network. The environment simulates the deployment of service function chains (SFCs) with considerations for security levels, processing demands, and network capacity.
+This project implements a custom reinforcement learning environment using [OpenAI Gym](https://www.gymlibrary.dev/) for the intelligent deployment of **Virtual Network Functions (VNFs)** across a physical network. It focuses on optimizing **Service Function Chain (SFC)** deployments while considering **security constraints**, **resource demands**, and **network capacity**.
 
-## Features
+---
 
-- **Dynamic Physical Network Generation**: Generate a physical network with configurable initial capacities, security levels, and costs for each node.
-- **SFC Chain Management**: Support for multiple SFC chains with varying VNF requirements.
-- **Reinforcement Learning Integration**: Utilizes a Deep Deterministic Policy Gradient (DDPG) agent for training and optimizing VNF deployments based on observed states and rewards.
-- **Security Constraints**: Incorporates security levels into the deployment decision process to ensure that VNFs are placed in nodes that meet their security requirements.
-- **Visualization**: Provides visual representation of the network deployment using NetworkX and Matplotlib.
+## 🚀 Features
 
-## Installation
+- ✅ **Dynamic Physical Network Generation**  
+  Each simulation instance creates a network with tunable parameters such as node capacities, security levels, and operational costs.
 
-1. Clone the repository:
+- 🔗 **SFC Chain Management**  
+  Supports multiple chains of VNFs with customizable demands and security requirements.
+
+- 🤖 **Reinforcement Learning Integration (DDPG)**  
+  Uses **Deep Deterministic Policy Gradient (DDPG)** to learn and optimize VNF placement over time.
+
+- 🔒 **Security-Aware Deployment**  
+  Ensures that each VNF is only placed on nodes that meet or exceed its security requirements.
+
+- 📊 **Visualization Tools**  
+  Visualizes physical network, VNF deployments, and SFC flows using `NetworkX` and `Matplotlib`.
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
